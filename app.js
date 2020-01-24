@@ -72,36 +72,36 @@ app.get('/get_trigger/:trigger_id/:member_id', (req, res) => {
         from: 'PHM@health_insurance.com',
         subject: 'Reminder'
       }
-    }
+    },
     /**
     *  Getting Member Info
     */
     {
-              task: {
-                id: 128,
-                origId: 'C201',
-                predecessor: 'A490.0',
-                suppressed: false,
-                suppressionPeriod: '',
-                expirationDate: '2020-12-31T12:00:00.000Z',
-                close: 'SOFT',
-                reminderInitiation: 'P7D',
-                reminderFrequency: 'R/P7D',
-                escalationTimer: 'P30D',
-                description: 'Getting member info'
-              },
-              assignment: {
-                actor: 'Mary',
-                channel: 'MLP',
-                escalationActor: 'Charlie',
-                escalationChannel: 'CCN'
-              },
-              reminder: {
-                address: 'mary@mail.com',
-                body: 'XYZ',
-                from: 'PHM@health_insurance.com',
-                subject: 'Reminder'
-              }
+      task: {
+        id: 128,
+        origId: 'C201',
+        predecessor: 'A490.0',
+        suppressed: false,
+        suppressionPeriod: '',
+        expirationDate: '2020-12-31T12:00:00.000Z',
+        close: 'SOFT',
+        reminderInitiation: 'P7D',
+        reminderFrequency: 'R/P7D',
+        escalationTimer: 'P30D',
+        description: 'Getting member info'
+      },
+      assignment: {
+        actor: 'Mary',
+        channel: 'MLP',
+        escalationActor: 'Charlie',
+        escalationChannel: 'CCN'
+      },
+      reminder: {
+        address: 'mary@mail.com',
+        body: 'XYZ',
+        from: 'PHM@health_insurance.com',
+        subject: 'Reminder'
+      }
     },
     /**
     *  Getting Pharmacist Info
