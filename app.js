@@ -58,7 +58,7 @@ app.get('/get_trigger/:trigger_id/:member_id', (req, res) => {
         //        reminderFrequency : 'R/PT60S',
         escalationTimer: 'P90D',
         //        escalationTimer : 'PT60S',
-        decription: 'Getting Community Info'
+        description: 'Getting Community Info'
       },
       assignment: {
         actor: 'Charlie',
